@@ -7,3 +7,5 @@ applications:
     memory: 650M
     routes:
     - route: hello-world-apps.cfapps.io
+    services:
+    - demo-redis
