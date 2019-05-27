@@ -1,0 +1,9 @@
+---
+applications:
+  - name: cf-spring-boot-demo
+    buildpacks: 
+      - java_buildpack
+    path: target/cf-spring-boot-demo-0.0.1-SNAPSHOT.jar
+    memory: 650M
+    routes:
+    - route: hello-world-apps.cfapps.io
